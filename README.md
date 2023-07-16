@@ -25,6 +25,21 @@ For detailed information about the API endpoints and their functionality, please
 
 
 ### Calls
+
+```javascript
+{
+    // Iskanje vseh postaj
+app.get('/postaje', (req, res) => {
+  db.all('SELECT * FROM postaje', [], (err, rows) => {
+      if (err) {
+          throw err;
+      }
+      res.send(rows);
+  });
+});
+}
+```
+
 ######  GET /api/urnikpostaje/:id_postaje
 
 - Retrieves the schedule for a specific station identified by id_postaje.
