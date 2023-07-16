@@ -27,8 +27,8 @@ For detailed information about the API endpoints and their functionality, please
 ### Calls
 
 ```javascript
-{
-    // Iskanje vseh postaj
+
+// Retrieves all stations
 app.get('/postaje', (req, res) => {
   db.all('SELECT * FROM postaje', [], (err, rows) => {
       if (err) {
@@ -37,7 +37,7 @@ app.get('/postaje', (req, res) => {
       res.send(rows);
   });
 });
-}
+
 ```
 
 ######  GET /api/urnikpostaje/:id_postaje
