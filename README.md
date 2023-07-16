@@ -17,6 +17,12 @@ This repository contains the code for the Arriva Kranj API server for mobile app
 4. API Endpoints
 5. Root Path: /
 
+### Database
+The server uses an SQLite database located at ./busapp.sqlite.
+The necessary tables and data should be set up in the database before running the server.
+
+For detailed information about the API endpoints and their functionality, please refer to the code comments and the API documentation.
+
 
 ### Calls
 ######  GET /api/urnikpostaje/:id_postaje
@@ -82,8 +88,3 @@ This repository contains the code for the Arriva Kranj API server for mobile app
 
 ------------
 
-### Database
-The server uses an SQLite database located at ./busapp.sqlite.
-The necessary tables and data should be set up in the database before running the server.
-
-For detailed information about the API endpoints and their functionality, please refer to the code comments and the API documentation.
