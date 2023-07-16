@@ -40,9 +40,9 @@ app.get('/postaje', (req, res) => {
 
 ```
 
-######  GET /api/urnikpostaje/:id_postaje
+###### GET /postaje
 
-- Retrieves the schedule for a specific station identified by id_postaje.
+- Retrieves all stations.
 
 ------------
 ###### GET /api/najdiLinijo/:postaja1/:postaja2
