@@ -5,7 +5,7 @@ This repository contains the code for the Arriva Kranj API server for mobile app
 - Node.js
 - SQLite3
 
-###Installation
+### Installation
 - Clone the repository: git clone https://github.com/Martinek16/Arriva-KR-API-BusApp.git
 - Navigate to the project directory: cd Arriva-KR-API-BusApp
 - Install the dependencies: npm install
