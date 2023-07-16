@@ -25,6 +25,7 @@ For detailed information about the API endpoints and their functionality, please
 
 
 ### Calls
+Example: [http://localhost:3000/postaje](http://localhost:3000/postaje "http://localhost:3000/postaje")
 
 ```javascript
 
