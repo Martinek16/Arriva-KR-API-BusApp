@@ -102,8 +102,9 @@ app.get('/postaje', (req, res) => {
 
 - Searches for lines by station ID(s).
 
-
-
+.
+.
+.
 
 #####  Unfortunately, some variables are in Slovenian, so here is a brief translation:
 - **postaja** - station
