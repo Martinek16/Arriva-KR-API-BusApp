@@ -1,5 +1,5 @@
 # Arriva Kranj API server for [BusApp](https://github.com/Martinek16/BusApp "BusApp")
-This repository contains the code for the Arriva Kranj API server for mobile app BusApp. The server provides an API for accessing bus-related information such as station schedules, timetables, notifications, and more.
+This repository contains the code for the Arriva Kranj API server for mobile app [BusApp](https://facebook.github.io/react-native). The server provides an API for accessing bus-related information such as station schedules, timetables, notifications, and more.
 
 ### Requirements
 - Node.js
