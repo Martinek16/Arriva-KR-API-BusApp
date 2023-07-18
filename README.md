@@ -105,7 +105,7 @@ app.get('/postaje', (req, res) => {
 ------------
 
 
-> Unfortunately, some variables are in Slovenian, so here is a brief translation:
+#####  Unfortunately, some variables are in Slovenian, so here is a brief translation:
 - **postaja** - station
 - **urnik** - schedule
 - **cena** - price
